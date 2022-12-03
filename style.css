@@ -1,0 +1,53 @@
+.infoBox {
+    background: rgb(136, 126, 121);
+    border: 1px solid rgb(11, 11, 11);
+    padding: 0 5px;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    padding: 5px;
+    margin: 5px;
+    background: #ffe url("fade.png") top center repeat-x;
+}
+
+.postName {
+    color: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    font-weight: 700;
+}
+
+.reply {
+    margin: 8px;
+    padding: 5px;
+    background: #d6d6d6;
+    border: 1px solid #d9bfb7;
+}
+
+#postBox {
+    margin: 8px;
+    background: #d6d6d6;
+    border: 1px solid #d9bfb7
+}
+
+td:first-child {
+    background-color: rgb(150, 150, 150);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 0 5px;
+    font-size: 10pt;
+}
+
+textarea {
+    width: 320px;
+    height: 100;
+}
+
+#powered {
+    margin: 8px;
+    padding: 5px;
+    font-size: 8px;
+    font-weight: 800;
+}
